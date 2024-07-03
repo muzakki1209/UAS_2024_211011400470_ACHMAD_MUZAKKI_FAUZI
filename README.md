@@ -1,4 +1,4 @@
-# crypto_price_app
+# Aplikasi Harga Crypto
 
 A new Flutter project.
 

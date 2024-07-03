@@ -7,7 +7,7 @@ class CryptoListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Crypto Prices'),
+        title: Text('Harga Crypto'),
       ),
       body: FutureBuilder(
         future: Provider.of<CryptoProvider>(context, listen: false).fetchCryptos(),
